@@ -18,6 +18,7 @@ app.listen(port || 3000, ()=>{
     console.log(`Server is on! Port: ${port}`);
 });
 
+
 //Static
 app.use(express.static("public"));
 
